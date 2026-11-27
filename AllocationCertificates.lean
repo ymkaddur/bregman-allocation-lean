@@ -1,2 +1,4 @@
 import AllocationCertificates.HallCertificate
 import AllocationCertificates.ZeroRectangle
+import AllocationCertificates.CapacitatedHall
+import AllocationCertificates.AllocationCount
