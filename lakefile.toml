@@ -1,5 +1,5 @@
 name = "bregman_allocation_lean"
-defaultTargets = ["AllocationCertificates"]
+defaultTargets = ["AllocationCertificates", "RookTransfer"]
 
 [leanOptions]
 autoImplicit = false
@@ -11,3 +11,6 @@ rev = "v4.33.1"
 
 [[lean_lib]]
 name = "AllocationCertificates"
+
+[[lean_lib]]
+name = "RookTransfer"
