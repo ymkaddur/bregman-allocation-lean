@@ -1,5 +1,5 @@
 name = "bregman_allocation_lean"
-defaultTargets = ["AllocationCertificates", "ContextualPareto"]
+defaultTargets = ["AllocationCertificates", "ContextualPareto", "BudgetPins"]
 
 [leanOptions]
 autoImplicit = false
@@ -14,3 +14,6 @@ name = "AllocationCertificates"
 
 [[lean_lib]]
 name = "ContextualPareto"
+
+[[lean_lib]]
+name = "BudgetPins"
